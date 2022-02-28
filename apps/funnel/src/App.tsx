@@ -1,9 +1,10 @@
 import { Layout } from "common";
+import { Welcome } from "oldComponents/Welcome";
 import { Button } from 'components';
 
 function App() {
   return (
-    <Layout><Button>CoolButton</Button></Layout>
+    <Layout><Welcome /><Button>CoolButton</Button></Layout>
   );
 }
 

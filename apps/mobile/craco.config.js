@@ -1,8 +1,6 @@
 const path = require("path");
-// const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 const { getLoader, loaderByName, ESLINT_MODES } = require("@craco/craco");
-// const { getPlugin, pluginByName } = require("@craco/craco/lib/webpack-plugins");
 
 const packages = ["components", "common"];
 const absolutePaths = [];
@@ -27,20 +25,6 @@ module.exports = {
         match.loader.include = include.concat(absolutePaths);
         console.log("Loading sources from:", match.loader.include);
       }
-
-    //   webpackConfig.plugins = [
-    //     ...webpackConfig.plugins,
-    //     new TsconfigPathsPlugin({
-    //       configFile: path.join(__dirname, "tsconfig.json"),
-    //     }),
-    //   ];
-
-      // const { match: eslintPlugin } = getPlugin(
-      //   webpackConfig,
-      //   pluginByName("ESLintWebpackPlugin"),
-      // );
-      // eslintPlugin.options.context = __dirname;
-      // eslintPlugin.options.files = ["src"];
 
       return webpackConfig;
     },

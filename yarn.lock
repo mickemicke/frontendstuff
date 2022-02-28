@@ -3285,12 +3285,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"antura-projects-frontend@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "antura-projects-frontend@workspace:."
-  languageName: unknown
-  linkType: soft
-
 "anymatch@npm:^3.0.3, anymatch@npm:~3.1.2":
   version: 3.1.2
   resolution: "anymatch@npm:3.1.2"
@@ -4406,6 +4400,13 @@ __metadata:
     path-type: ^4.0.0
     yaml: ^1.10.0
   checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
+  languageName: node
+  linkType: hard
+
+"craco-alias@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "craco-alias@npm:3.0.1"
+  checksum: 8d9a2bf38fa0834f365415509b57c33fda3a0fec18382242d9c92e766029bd72cca3f8aa548ff23c8d1272dd5621c97f9ceaa7e10517f0056a64bc89bff58d1e
   languageName: node
   linkType: hard
 
@@ -6051,6 +6052,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"frontend@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "frontend@workspace:."
+  languageName: unknown
+  linkType: soft
+
 "fs-extra@npm:^10.0.0":
   version: 10.0.1
   resolution: "fs-extra@npm:10.0.1"
@@ -6142,6 +6149,7 @@ __metadata:
     "@types/node": ^16.11.26
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.11
+    craco-alias: ^3.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-scripts: 5.0.0

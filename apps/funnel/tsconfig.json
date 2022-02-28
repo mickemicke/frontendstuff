@@ -7,6 +7,7 @@
       "esnext"
     ],
     "allowJs": true,
+    "baseUrl": "./src",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -20,8 +21,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "components": ["../../packages/components"],
-      "common": ["../../packages/common"]
+      "components": ["../../../packages/components"],
+      "common": ["../../../packages/common"],
+      "oldComponents/*": ["../../../src/oldComponents/*"]
     }
   },
   "include": [
