@@ -14,7 +14,7 @@ module.exports = {
     configure: (webpackConfig) => {
       const { isFound, match } = getLoader(
         webpackConfig,
-        loaderByName("babel-loader"),
+        loaderByName("babel-loader")
       );
 
       if (isFound) {
