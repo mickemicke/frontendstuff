@@ -1,7 +1,7 @@
 import { Button } from "components";
 
 function App() {
-  return <Button>Click meeeeeeeee</Button>;
+  return <Button>Jag kommer från mobile</Button>;
 }
 
 export default App;
